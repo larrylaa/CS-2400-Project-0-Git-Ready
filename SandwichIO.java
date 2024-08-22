@@ -5,7 +5,7 @@ import java.io.IOException;
 public class SandwichIO {
     public static void writeOrderToFile(Order order) {
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter("orderline.txt", true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("order.txt", true));
             writer.write(order.printOrder());
             writer.newLine(); 
             writer.close(); 

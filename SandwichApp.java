@@ -3,6 +3,7 @@ import java.util.Date;
 import java.text.DateFormat;
 import java.util.ArrayList;
 public class SandwichApp {
+	// this prints the menu
 	public static void printBreadOptions() {
 		System.out.println("=== Select Sandwich Bread: ===");
 		System.out.println("1 - White Bread $1.50");
